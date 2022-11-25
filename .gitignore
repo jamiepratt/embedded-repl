@@ -1,0 +1,4 @@
+.calva/output-window/output.calva-repl
+.clj-kondo/.cache/v1/lock
+.clj-kondo/.cache/v1/clj/jamiep.repl.transit.json
+.cpcache/
