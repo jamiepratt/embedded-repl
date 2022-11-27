@@ -2,13 +2,12 @@ name: remote ssh command
 on:
   push:
     branches:
-      - deploy
+      - master
 
 jobs:
   deployment:
     name: deploy
     runs-on: ubuntu-latest
-    environment: deploy
     steps:
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@master
