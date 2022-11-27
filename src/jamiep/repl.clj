@@ -4,4 +4,8 @@
   (:gen-class))
 
 (defn -main [& args]
-  (nrepl-server/start-server :port 54654 :handler cider-nrepl-handler))
+  (nrepl-server/start-server
+   :port 2001
+   :bind "0.0.0.0"
+   :handler cider-nrepl-handler))
+

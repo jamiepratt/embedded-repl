@@ -4,4 +4,4 @@ services:
     build: .
     restart: always
     ports:
-      - 2001:54654
+      - 127.0.0.1:2001:2001
